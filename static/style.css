@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.banner{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(https://listasdeviagem.com/wp-content/uploads/2017/06/amelie.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.banner2{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(https://i.pinimg.com/originals/84/55/6e/84556ef0c6f117270dc68b6afa9c45af.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.banner3{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(https://i.pinimg.com/originals/fb/2b/05/fb2b05a5779f84e8c275298f712f8c28.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.banner4{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(https://th.bing.com/th/id/R.bc0a9242ae44eeafc1b7640bacbc5f43?rik=tFCx0ZMk41gCkA&riu=http%3a%2f%2f2.bp.blogspot.com%2f-9uk1-OTKwcA%2fTkPUY17h-rI%2fAAAAAAAAA4Q%2foExKN7ffd54%2fs1600%2famelie_02.jpg&ehk=zASYJWZlDbjH6%2fGxoiFY%2fMUJKHMxiSuFKnVSszAgH8A%3d&risl=&pid=ImgRaw&r=0);
+  background-size: cover;
+  background-position: center;
+}
+
+.banner5{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(https://th.bing.com/th/id/R.659e09397029b1e0985596c7f5d6642e?rik=DMWamq5XEYnZzA&riu=http%3a%2f%2fdiarioaberto.com.br%2fwp-content%2fuploads%2f2018%2f03%2fPensamento-de-domingo-Sejamos-Am%c3%a9lie-Poulain1.jpg&ehk=Dz7dcwEhhUK3EwmOKpqPXaHceb%2fPp7JVDkiZMUb2LLE%3d&risl=&pid=ImgRaw&r=0);
+  background-size: cover;
+  background-position: center;
+}
+
+.content{
+  color: #fff;
+  width: 100%;
+  position: absolute;
+  top: 60%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+a:hover{
+  color: #f00;
+}
+.content h1{
+  font-size: 50px;
+  margin-top: 80px;  
+  text-transform: uppercase;
+}
+.content p{
+  margin: 20px auto;
+  font-weight: 100;
+  line-height: 25px;
+}
+
+input{
+  display: block;
+  width: 200px;
+  padding: 10px 0;
+  text-align: center;
+  margin: 10px 10px;
+  border-radius: 15px;
+  border: 1px solid ;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  transition: transform 0.3s;
+
+}
+
+button{
+  display: block;  
+  width: 100px;
+  padding: 10px 0;
+  text-align: center;
+  border-radius: 15px;
+  border: 1px solid ;
+  background: transparent;
+  /* background-color: #f00;*/
+  color: #fff; 
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+button:hover{
+  transform: translateY(-5px);
+
+}
+
+form{
+  margin: 25px;
+}
+
+
+input::placeholder {
+  color: white;
+}
+input:hover {
+  border-color: #f00;
+  transform: translateY(-5px);
+
+}
+input:focus {
+  border-color: #f00;
+  outline: none; 
+}
+footer {
+    background-color: #333;
+    color: #EEE;
+    padding: 5px;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+}
+
+footer p{
+  text-align: center;
+}
+q{
+  color:white;
+  font-weight: 100;
+  text-align:left;
+  font-family: 'Caveat', cursive;    
+}
+
+.container{
+  width:600px;
+  height:30px;
+  position: absolute;
+  top: 60%;
+  left:5%;
+  transform: translateY(-240%);
+  text-align: center;
+}
+
+.container h1{
+  color:white;
+  font-size: 50px; 
+  text-transform: uppercase;
+  text-align:left;
+  padding:25px;
+}
+.container p{
+  font-family: 'Caveat', cursive;    
+  color:white;  
+  font-weight: 100;
+  line-height: 25px;
+  text-align:right;
+}
+
+.container2{
+  width:600px;
+  height:30px;
+  position: absolute;
+  top: 60%;
+  left:5%;
+  transform: translateY(-240%);
+  text-align: center;
+}
+
+.container2 h1{
+  color:white;
+  font-size: 50px; 
+  text-transform: uppercase;
+  text-align:left;
+  padding:25px;
+}
+.container2 p{
+  font-family: 'Caveat', cursive;    
+  color:white;  
+  font-weight: 100;
+  line-height: 25px;
+  text-align:right;
+}
+
+.container2 q{
+  font-family: 'Caveat', cursive;    
+  color:white;
+  font-weight: 100;
+  text-align:left;
+}
+.result-content{
+  display:block
+}
+h1.result-content{
+  width:100%;
+  color: #fff;
+  font-size: 50px; 
+  position: absolute;
+  top: 60%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+button.back{
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid ;
+  background: transparent;
+  color: #fff; 
+  cursor: pointer;
+  margin: 25px auto;
+}
+
+button.back:hover{
+  background-color: #f01421;
+  color:white; 
+  transform: translateX(-10%);
+}
+
+.result-content{
+  color: #fff;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.banner5 h1{
+  color:white;
+  font-size: 30px; 
+  text-transform: uppercase;
+  text-align:left;
+  padding:25px;
+  transform: translateX(25%);
+}

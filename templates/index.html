@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Reminds Me Of August Twenty Nine</title>
+  <link href="/static/style.css" rel="stylesheet" type="text/css" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/5.0.6/jquery.inputmask.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
+</head>
+<script>
+  $(document).ready(function() {
+    $('#phone').inputmask('(99) 99999-9999');
+  });
+</script>
+<body>
+  {% block content %}
+  <div class="banner">
+    <div class="content">
+      <h1>Lembra-me de 29 de agosto</h1>
+      <p>Para todos os fãs de <a href="https://letterboxd.com/film/amelie/" target="_blank">O Fabuloso Destino de Amélie Poulain</a></p>      
+       <center>
+        <form action="/enviar" method="post">
+          <input name="nome" type="text" required placeholder="Digite o seu nome" />
+          <input name="email" type="email" pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/"
+    required placeholder="Digite o seu e-mail" />
+          <button type="submit" >Lembra-me</button>
+        </form> 
+       </center>
+    </div>
+  </div>
+  {% endblock %}
+
+    <div class="footer">
+    <footer>
+      <p>Create by <a href="https://github.com/vlopess" target='_blank'>Victor Lopes</a></p>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
