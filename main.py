@@ -83,7 +83,7 @@ def receber_dados():
   job = scheduler.add_job(
         func=send_email,
         trigger="date", 
-        run_date=tz.localize(datetime(2023, 12, 5, 6, 53)),                 args=[nome, email],
+        run_date=tz.localize(datetime(2023, 12, 5, 7, 8)),                 args=[nome, email],
         id=f'{email}_1',
         replace_existing=True,
         misfire_grace_time=None
@@ -92,13 +92,13 @@ def receber_dados():
   job = scheduler.add_job(
         func=send_email2,
         trigger="date", 
-        run_date=tz.localize(datetime(2023, 12, 5, 6, 55)),                 args=[nome, email],
+        run_date=datetime(2023, 12, 5, 7, 33),                 args=[nome, email],
         id=f'{email}_2',
         replace_existing=True,
         misfire_grace_time=None
   )
   print(job)
-  return render_template('result.html', title = 'Seu e-mail foi enviado com sucesso!', subtitle='Aguarde, pois você será lembrado.')
+  return render_template('result.html', title = 'Seu e-mail será enviado!', subtitle='Aguarde, pois você será lembrado.')
   
 @app.errorhandler(404)
 def page_not_found(e):
@@ -112,5 +112,5 @@ def internal_server_error(e):
 
   
 if __name__ == '__main__':
-  app.run("0.0.0.0",8080)
+  app.run("0.0.0.0",8080, True)
   
