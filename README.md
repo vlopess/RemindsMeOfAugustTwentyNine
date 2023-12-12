@@ -7,8 +7,7 @@ Este projeto é um sistema simples de e-mails para lembrar o dia 29 de agosto, i
 
 ## Funcionalidades
 
-- Envio de lembretes uma semana antes e no dia do evento.
-- Sistema de e-mail de verificação para garantir a confirmação do usuário.
+- Envio de lembretes uma semana antes e no dia por email.
 
 ## Tecnologias utilizadas
 Esse projeto foi desenvolvido utilizando as seguintes tecnologias:
