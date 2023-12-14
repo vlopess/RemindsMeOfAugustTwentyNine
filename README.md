@@ -1,13 +1,13 @@
 ![](https://github.com/vlopess/RemindsMeOfAugustTwentyNine/blob/main/ameliereadme.png?raw=true)
 
-Este projeto é um sistema simples de e-mails para lembrar o dia 29 de agosto, inspirado no filme "O Fabuloso Destino de Amélie Poulain".
+Este projeto é um sistema simples de envio de e-mails para lembrar o dia 29 de agosto, data importante do filme "O Fabuloso Destino de Amélie Poulain". 
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=DEPLOYING&color=GREEN&style=for-the-badge)
 
 
 ## Funcionalidades
 
-- Envio de lembretes uma semana antes e no dia por email.
+- Envio de lembretes por email.
 
 ## Tecnologias utilizadas
 Esse projeto foi desenvolvido utilizando as seguintes tecnologias:
